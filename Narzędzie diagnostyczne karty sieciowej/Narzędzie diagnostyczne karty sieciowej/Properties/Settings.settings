@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Narzędzie_diagnostyczne_karty_sieciowej.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Courier New, 8.25pt</Value>
+    </Setting>
+    <Setting Name="windowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">612, 429</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

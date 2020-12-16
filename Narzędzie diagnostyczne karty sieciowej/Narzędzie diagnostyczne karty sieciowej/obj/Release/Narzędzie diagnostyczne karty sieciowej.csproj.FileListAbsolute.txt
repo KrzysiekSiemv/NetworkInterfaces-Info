@@ -1,0 +1,12 @@
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Release\Narzędzie diagnostyczne karty sieciowej.exe.config
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Release\Narzędzie diagnostyczne karty sieciowej.exe
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Release\Narzędzie diagnostyczne karty sieciowej.pdb
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Release\System.ValueTuple.dll
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Release\System.ValueTuple.xml
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie_diagnostyczne_karty_sieciowej.Form1.resources
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie_diagnostyczne_karty_sieciowej.Properties.Resources.resources
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie diagnostyczne karty sieciowej.csproj.GenerateResource.cache
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie diagnostyczne karty sieciowej.csproj.CoreCompileInputs.cache
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie diagnostyczne karty sieciowej.csproj.CopyComplete
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie diagnostyczne karty sieciowej.exe
+C:\Users\Krzysiek\source\repos\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Release\Narzędzie diagnostyczne karty sieciowej.pdb
