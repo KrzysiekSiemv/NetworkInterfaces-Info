@@ -13,7 +13,7 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Diagnostics;
 
-namespace Narzędzie_diagnostyczne_karty_sieciowej
+namespace NetworkInterface_Info
 {
     public partial class Form1 : Form
     {
@@ -28,6 +28,12 @@ namespace Narzędzie_diagnostyczne_karty_sieciowej
             IPGlobalProperties properties = IPGlobalProperties.GetIPGlobalProperties();
 
             textBox1.Text = ("Informacje o ustawieniach karty sieciowej dla urządzenia \"" + properties.HostName + "\"" + Environment.NewLine + Environment.NewLine);
+
+            if (NetworkInterface.GetIsNetworkAvailable())
+                textBox1.Text += ("Połączenie z Internetem .. : Tak" + Environment.NewLine + Environment.NewLine);
+            else
+                textBox1.Text += ("Połączenie z Internetem .. : Nie" + Environment.NewLine + Environment.NewLine);
+
             foreach (NetworkInterface adapter in networkInterfaces)
             {
                 textBox1.Text += adapter.Description + Environment.NewLine;
@@ -89,6 +95,9 @@ namespace Narzędzie_diagnostyczne_karty_sieciowej
         // NIE DOTYKAĆ, BO DZIAŁA
         private void generate(object sender, EventArgs e)
         {
+            IPGlobalProperties properties = IPGlobalProperties.GetIPGlobalProperties();
+
+            saveFileDialog1.FileName = "NetworkInterfaces Info " + properties.HostName + ".txt";
             saveFileDialog1.Filter = "Plik tekstowy (*.txt)|*.txt|Wszystkie pliki (*.*)|*.*";
             saveFileDialog1.FilterIndex = 1;
 
@@ -127,6 +136,12 @@ namespace Narzędzie_diagnostyczne_karty_sieciowej
         private void stworzonePrzezKrzysiekSiemvToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/KrzysiekSiemv");
+        }
+
+        private void pingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ping ping = new ping();
+            ping.Show();
         }
     }
 }

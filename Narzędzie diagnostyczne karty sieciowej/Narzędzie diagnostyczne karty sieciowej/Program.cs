@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Narzędzie_diagnostyczne_karty_sieciowej
+namespace NetworkInterface_Info
 {
     static class Program
     {

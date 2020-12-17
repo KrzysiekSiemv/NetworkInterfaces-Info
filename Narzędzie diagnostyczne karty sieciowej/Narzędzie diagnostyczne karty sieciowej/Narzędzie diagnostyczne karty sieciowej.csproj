@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{95B9449A-F2A1-43CC-8A80-E078E5C9DE78}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Narzędzie_diagnostyczne_karty_sieciowej</RootNamespace>
-    <AssemblyName>Narzędzie diagnostyczne karty sieciowej</AssemblyName>
+    <RootNamespace>NetworkInterface_Info</RootNamespace>
+    <AssemblyName>NetworkInterface Info</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -57,10 +57,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ping.Designer.cs">
+      <DependentUpon>ping.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ping.resx">
+      <DependentUpon>ping.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -70,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

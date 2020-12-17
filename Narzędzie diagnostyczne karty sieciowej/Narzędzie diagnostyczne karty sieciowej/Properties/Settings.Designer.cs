@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Narzędzie_diagnostyczne_karty_sieciowej.Properties {
+namespace NetworkInterface_Info.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
