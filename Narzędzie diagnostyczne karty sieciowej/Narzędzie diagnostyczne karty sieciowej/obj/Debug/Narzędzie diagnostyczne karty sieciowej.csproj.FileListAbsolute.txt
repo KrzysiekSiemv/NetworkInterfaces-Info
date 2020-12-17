@@ -25,4 +25,4 @@ C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostycz
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\Narzędzie diagnostyczne karty sieciowej.csproj.CopyComplete
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.exe
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.pdb
-C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.changeIPv4.resources
+C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.traceroute.resources

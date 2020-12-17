@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.NetworkInformation;
+using System.Net;
 
 namespace NetworkInterface_Info
 {
@@ -25,9 +26,9 @@ namespace NetworkInterface_Info
             string data = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
             byte[] buffer = Encoding.ASCII.GetBytes(data);
 
-            PingOptions options = new PingOptions(Int32.Parse(ttl.Value.ToString()), dontfragment.Checked);
+            PingOptions options = new PingOptions(64, true);
             PingReply pingReply = pingSender.Send(server.Text, Int32.Parse(miliseconds.Value.ToString()), buffer, options);
-
+            
             if (pingReply.Status == IPStatus.Success)
                 textBox1.Text += pingReply.Buffer.Length + " bajtów od " + server.Text + " (" + pingReply.Address + "): ttl=" + pingReply.Options.Ttl + " czas=" + pingReply.RoundtripTime + " ms" + Environment.NewLine;
             else
