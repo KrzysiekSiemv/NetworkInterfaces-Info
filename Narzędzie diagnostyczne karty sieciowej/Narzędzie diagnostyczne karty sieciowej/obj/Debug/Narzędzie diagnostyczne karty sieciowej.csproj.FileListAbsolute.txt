@@ -26,3 +26,18 @@ C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostycz
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.exe
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.pdb
 C:\Users\Krzysiek\Documents\GitHub\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.traceroute.resources
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Debug\NetworkInterface Info.exe.config
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Debug\NetworkInterface Info.exe
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Debug\NetworkInterface Info.pdb
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Debug\System.ValueTuple.dll
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\bin\Debug\System.ValueTuple.xml
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\Narzędzie diagnostyczne karty sieciowej.csprojAssemblyReference.cache
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.Form1.resources
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.ping.resources
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.Properties.Resources.resources
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface_Info.traceroute.resources
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\Narzędzie diagnostyczne karty sieciowej.csproj.GenerateResource.cache
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\Narzędzie diagnostyczne karty sieciowej.csproj.CoreCompileInputs.cache
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\Narzędzie diagnostyczne karty sieciowej.csproj.CopyComplete
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.exe
+D:\GitHub (krzysiek-smaga@outlook.com)\NetworkInterfaces-Info\Narzędzie diagnostyczne karty sieciowej\Narzędzie diagnostyczne karty sieciowej\obj\Debug\NetworkInterface Info.pdb

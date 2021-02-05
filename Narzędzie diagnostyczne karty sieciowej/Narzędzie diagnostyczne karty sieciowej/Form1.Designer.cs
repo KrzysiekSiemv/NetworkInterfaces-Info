@@ -38,18 +38,20 @@ namespace NetworkInterface_Info
             this.odświeżInformacjeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.czcionkaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcjeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tracerouteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stworzonePrzezKrzysiekSiemvToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.pingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.HideSelection = false;
+            this.textBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBox1.Location = new System.Drawing.Point(0, 24);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -104,10 +106,25 @@ namespace NetworkInterface_Info
             // opcjeToolStripMenuItem
             // 
             this.opcjeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pingToolStripMenuItem});
+            this.pingToolStripMenuItem,
+            this.tracerouteToolStripMenuItem});
             this.opcjeToolStripMenuItem.Name = "opcjeToolStripMenuItem";
             this.opcjeToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.opcjeToolStripMenuItem.Text = "Narzędzia";
+            // 
+            // pingToolStripMenuItem
+            // 
+            this.pingToolStripMenuItem.Name = "pingToolStripMenuItem";
+            this.pingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pingToolStripMenuItem.Text = "Ping";
+            this.pingToolStripMenuItem.Click += new System.EventHandler(this.pingToolStripMenuItem_Click);
+            // 
+            // tracerouteToolStripMenuItem
+            // 
+            this.tracerouteToolStripMenuItem.Name = "tracerouteToolStripMenuItem";
+            this.tracerouteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tracerouteToolStripMenuItem.Text = "Traceroute";
+            this.tracerouteToolStripMenuItem.Click += new System.EventHandler(this.tracerouteToolStripMenuItem_Click);
             // 
             // stworzonePrzezKrzysiekSiemvToolStripMenuItem
             // 
@@ -121,13 +138,6 @@ namespace NetworkInterface_Info
             // 
             this.fontDialog1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             // 
-            // pingToolStripMenuItem
-            // 
-            this.pingToolStripMenuItem.Name = "pingToolStripMenuItem";
-            this.pingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pingToolStripMenuItem.Text = "Ping";
-            this.pingToolStripMenuItem.Click += new System.EventHandler(this.pingToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,7 +148,8 @@ namespace NetworkInterface_Info
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "NetworkInterfaces Info";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "NetworkInterfaces.Info";
             this.Load += new System.EventHandler(this.onLoad);
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.menuStrip1.ResumeLayout(false);
@@ -160,6 +171,7 @@ namespace NetworkInterface_Info
         private System.Windows.Forms.ToolStripMenuItem opcjeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stworzonePrzezKrzysiekSiemvToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tracerouteToolStripMenuItem;
     }
 }
 

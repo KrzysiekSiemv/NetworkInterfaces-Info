@@ -27,7 +27,7 @@ namespace NetworkInterface_Info
             byte[] buffer = Encoding.ASCII.GetBytes(data);
 
             PingOptions options = new PingOptions(64, true);
-            PingReply pingReply = pingSender.Send(server.Text, Int32.Parse(miliseconds.Value.ToString()), buffer, options);
+            PingReply pingReply = pingSender.Send(server.Text, Convert.ToInt32(miliseconds.Value), buffer, options);
             
             if (pingReply.Status == IPStatus.Success)
                 textBox1.Text += pingReply.Buffer.Length + " bajtów od " + server.Text + " (" + pingReply.Address + "): ttl=" + pingReply.Options.Ttl + " czas=" + pingReply.RoundtripTime + " ms" + Environment.NewLine;

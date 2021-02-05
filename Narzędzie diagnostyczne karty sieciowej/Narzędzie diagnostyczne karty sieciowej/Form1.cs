@@ -143,5 +143,11 @@ namespace NetworkInterface_Info
             ping ping = new ping();
             ping.Show();
         }
+
+        private void tracerouteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            traceroute traceroute = new traceroute();
+            traceroute.Show();
+        }
     }
 }
