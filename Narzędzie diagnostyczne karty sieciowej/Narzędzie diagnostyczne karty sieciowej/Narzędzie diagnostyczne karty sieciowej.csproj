@@ -7,7 +7,7 @@
     <ProjectGuid>{95B9449A-F2A1-43CC-8A80-E078E5C9DE78}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>NetworkInterface_Info</RootNamespace>
-    <AssemblyName>NetworkInterface Info</AssemblyName>
+    <AssemblyName>NetworkInterface.Info</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
